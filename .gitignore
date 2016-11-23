@@ -26,5 +26,6 @@ hs_err_pid*
 # local gradle repo
 .gradle/**
 
-# gralde build directory
+# gradle build directory
 build/**
+/bin/
