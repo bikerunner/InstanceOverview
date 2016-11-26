@@ -29,3 +29,6 @@ hs_err_pid*
 # gradle build directory
 build/**
 /bin/
+
+# allow gradle wrapper directory files
+!/gradle/**
