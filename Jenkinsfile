@@ -6,12 +6,12 @@ node  {
     }
 
     stage('Build') {
-        bat "set"
+//        bat "set"
     
         if(isUnix()) {
-            sh 'gradlew build --info'
+            sh 'gradlew build -s'
         } else {
-            bat 'gradlew build --info'
+            bat 'gradlew build -s'
         }
     }
 }
