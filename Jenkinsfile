@@ -7,7 +7,7 @@ node {
    }
 
    stage('Build') {
-   cmd "set"
+   sh "set"
    }
 
 }
