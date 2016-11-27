@@ -1,4 +1,4 @@
-node {
+node 'windows' {
    // Mark the code checkout 'stage'....
    stage('Checkout') {
 
@@ -7,7 +7,7 @@ node {
    }
 
    stage('Build') {
-   sh "set"
+   bat "set"
    }
 
 }
